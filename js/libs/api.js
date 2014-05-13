@@ -88,6 +88,10 @@ function assignBackUp(){
 function buildGallery(){ //this builds all the images
     // for(var x=0; x<imageData.length; x++)
         $('#imgTry').attr('src', imageData[0].uri);
+      captionInfo();
 };
 
+function captionInfo(){
+        $('#oldCaption').append(imageData[0].caption + ', ' + imageData[0].credit);
+};
 getImages(); 

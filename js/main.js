@@ -29,11 +29,9 @@ $(document).ready(function(){
 
 	function parallax(){
     	var scrolled = $(window).scrollTop();
-        console.log(scrolled);
+        //console.log(scrolled);
         //$('#bgContainer').css('top', -(scrolled * .2) + 'px');
 }
-
-	
 
 	$('#contact').on('click', function(){
 		$('#mainText').slideUp("slow");
